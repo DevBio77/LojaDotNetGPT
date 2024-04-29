@@ -2,6 +2,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\MinhaLoja.Domain\MinhaLoja.Domain.csproj" />
+    <ProjectReference Include="..\MinhaLoja.Core\MinhaLoja.Core.csproj" />
   </ItemGroup>
 
   <ItemGroup>
