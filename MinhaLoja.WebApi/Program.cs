@@ -1,4 +1,8 @@
+using dotenv_vault.net;
+
 var builder = WebApplication.CreateBuilder(args);
+
+DotEnvVault.Load();
 
 // Add services to the container.
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
